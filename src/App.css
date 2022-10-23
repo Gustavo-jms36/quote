@@ -1,0 +1,56 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.quote {
+  position: relative;
+  max-width: 580px;
+  min-height: 190px;
+  padding: 20px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+}
+
+.info {
+  display: flex;
+  gap: 10px;
+}
+
+.fa-quote-left {
+  padding: 10px 0 0 0;
+  font-size: 45px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.author {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.next {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  padding-right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+@media (max-whidth: 480px){
+  body {
+    padding: 0 20px 0 20px;
+  }
+}
+
