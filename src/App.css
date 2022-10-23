@@ -1,9 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-
 }
 
 .quote {
@@ -48,9 +53,5 @@
   cursor: pointer;
 }
 
-@media (max-whidth: 480px){
-  body {
-    padding: 0 20px 0 20px;
-  }
-}
+
 
